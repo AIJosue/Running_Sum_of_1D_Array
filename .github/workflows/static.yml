@@ -45,6 +45,17 @@ jobs:
       - name: Build Flutter web
         run: flutter build web --base-href "/Running_Sum_of_1D_Array/"
 
+      # 4. Verify we are publishing the Flutter web app artifact only
+      - name: Verify Flutter web artifact
+        run: |
+          test -f build/web/index.html
+          test -f build/web/main.dart.js
+          if [ -f build/web/README.md ]; then
+            echo "Unexpected README.md found in deploy artifact; expected Flutter web output only."
+            exit 1
+          fi
+          touch build/web/.nojekyll
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
