@@ -4,7 +4,7 @@ A cross-platform application built to visualize the **Prefix Sum** algorithm. Or
 <img width="25%" alt="1" src="https://github.com/user-attachments/assets/e4cb5eeb-79b9-4d8b-a9b2-dbfcdb965b8d" />
 <img width="25%" alt="2" src="https://github.com/user-attachments/assets/66e57677-62eb-434c-afe3-88799046e644" />
 </p>
-**Try it out here:** [Live Demo](https://itjosue.github.io/FlutterFlow-Leetcode-Running-Sum-of-1D-Array/)
+
 
 ## ## Features
 
