@@ -11,6 +11,8 @@ import 'uploaded_file.dart';
 
 List<int> newCustomFunction(List<String> inputNums) {
   // convert List<String> to List<int>
-  List<int> outputNums = inputNums.map((num) => int.parse(num)).toList();
-  return outputNums;
+  return inputNums
+      .map((num) => int.tryParse(num.trim()))
+      .whereType<int>()
+      .toList();
 }
