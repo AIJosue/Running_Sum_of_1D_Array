@@ -43,11 +43,13 @@ For an input array $L = [x_0, x_1, x_2, ... , x_n]$, the output is calculated it
 
 To run this project locally, ensure you have the [Flutter SDK](https://flutter.dev/docs/get-started/install) installed.
 
+**Live site:** https://aijosue.github.io/Running_Sum_of_1D_Array/
+
 **1. Clone the repository:**
 
 ```bash
-git clone https://github.com/ITJosue/FlutterFlow-Leetcode-Running-Sum-of-1D-Array.git
-cd FlutterFlow-Leetcode-Running-Sum-of-1D-Array
+git clone https://github.com/AIJosue/Running_Sum_of_1D_Array.git
+cd Running_Sum_of_1D_Array
 
 ```
 
@@ -66,7 +68,3 @@ flutter run
 ```
 
 *(You can select your preferred target device, such as Chrome to test the web version locally).*
-
----
-
-Would you like me to generate a simple Dart code snippet representing the core logic of this app to include in a new "Code Example" section?
